@@ -23,18 +23,26 @@
         color:white;
         display: flex;
         justify-content: center;
-        align-items: center;
+        aliging: 4px 8px;
+    }
+    .estudante-todos{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    }
+    .estudante-titulo{
+        text-align: center;
         padding: 24px 0;
     }
-    .escola-div-conteudo{
-        width: 35%;
-    }.escola-titulo{
-        padding: 24px 0;
-    }   
-    body {
-        font-family: 'Poppins', sans-serif;
+    .rodape{
+        background-color: black;
+        text-align: center;
     }
-    .estudante-icone{
+    
+    .rodape-imagem{
+        height: 60px;
+        padding: 12px 0;
+    
+    }te-icone{
         width: 24px;
         padding: 4px 8px;
     }
